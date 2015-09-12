@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 #define KRED  "\x1B[31m"
 #define KGRN  "\x1B[32m"
 #define RESET "\033[0m"
