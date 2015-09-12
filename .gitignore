@@ -1,2 +1,4 @@
 *.out
 *.o
+arch_tool
+*.png

@@ -25,29 +25,29 @@ int main() {
         scanf("%*s");
     }
     switch(command) {
-                case 1:
-                    update_system();
-                    return 0;
-                case 2:
-                    remove_orphans();
-                    return 0;
-                case 3:
-                    remove_unused();
-                    return 0;
-                case 4:
-                    clear_cache();
-                    return 0;
-                case 5:
-                    optimize_pacman();
-                    return 0;
-                case 6:
-                    update_aur();
-                    return 0;
-                case 7:
-                    screenfetch();
-                    return 0;
-                case 8:
-                    return 0;
+        case 1:
+            update_system();
+            return 0;
+        case 2:
+            remove_orphans();
+            return 0;
+        case 3:
+            remove_unused();
+            return 0;
+        case 4:
+            clear_cache();
+            return 0;
+        case 5:
+            optimize_pacman();
+            return 0;
+        case 6:
+            update_aur();
+            return 0;
+        case 7:
+            screenfetch();
+            return 0;
+        case 8:
+            return 0;
 
     }
     return 0;
